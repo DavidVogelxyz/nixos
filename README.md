@@ -1,0 +1,2 @@
+# nixos
+NixOS configuration files
