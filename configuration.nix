@@ -106,6 +106,7 @@
         ffmpegthumbnailer
         font-awesome
         fzf
+        git
         gnome.gnome-keyring
         harfbuzz
         htop
@@ -170,15 +171,9 @@
         shell = pkgs.zsh;
         packages = with pkgs; [
             brave
-            celluloid
-            eww
-            feh
-            flameshot
             gh
             gimp
-            git
             hugo
-            kitty
             lutris
             neofetch
             openvpn
@@ -186,12 +181,10 @@
             qemu
             steam
             sudo
-            synergy
             thunderbird
             tldr
             tree
             virt-manager
-            xfce.thunar
         ];
     };
 
