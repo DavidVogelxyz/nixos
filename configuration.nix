@@ -56,6 +56,14 @@
         promptInit = "source ~/.config/zsh/.zshrc";
     };
 
+    # Enable ~/.local/bin in $PATH
+    environment.localBinInPath = true;
+    environment.sessionVariables = rec {
+        PATH = [
+            "$HOME/.local/bin/statusbar"
+        ];
+    };
+
     # Enable the X11 windowing system.
     services.xserver.enable = true;
     services.xserver.windowManager.dwm.enable = true;
